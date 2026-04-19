@@ -2,6 +2,11 @@ Toaday I lrarn about
 Math operations = + - / * ** %
 String Templet Literals 
 If else condition
+LoopS
+-For
+-While
+-Do_While
+
 
 let a = 10;
 let b = 20;
@@ -51,3 +56,52 @@ else if (marks > 50){
 else{
     console.log(`D`);
 }
+
+
+
+let attendence = 75;
+if(attendence >= 75){
+    console.log(`Pass`);
+}else(console.log(`fail`));
+
+
+
+
+for(i=0; i < 11 ;i++){
+    if(i%2==0){
+        console.log(i);
+    }
+}
+
+console.log(`While Loop`);
+
+let j = 0;
+
+while(j <= 10){
+    console.log(j);
+    j+=2;
+}
+
+console.log(`Do_While`);
+
+let k = 0;
+
+do{
+    console.log(k);
+    k+=2;
+}while(k <= 10)
+
+
+let x = 200; 
+
+do{
+    console.log(x);
+    x=x-10;
+}while(x>=0)
+
+let y = 1;   
+
+do{
+    console.log( "2 X "+ y + "=" + (2*y));
+    y++;
+}while(y<11)
