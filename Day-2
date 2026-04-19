@@ -1,0 +1,15 @@
+Learn About Javascript
+synchoronous
+single threade
+interpreted
+
+datatypes
+Variables
+Function Method
+Nomenclature of Variables
+
+
+// First Js Code
+let abc = 2026;
+console.log(typeof(abc));
+console.log(abc);
