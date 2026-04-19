@@ -1,0 +1,53 @@
+Toaday I lrarn about 
+Math operations = + - / * ** %
+String Templet Literals 
+If else condition
+
+let a = 10;
+let b = 20;
+
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a**b);
+console.log(a%b);
+
+
+let str1 = "Sujal";
+let str2 = 'Sujal';
+let str3 = `Sujal`;
+
+console.log(str1);
+console.log(str2);
+console.log(str3);
+
+
+let name = `sujal`;
+let job = `Frontend developer`;
+let work_place =`Freelancer`;
+
+let output = `Hiii my name is ${name}, i am a ${job} and i am a ${work_place}.`;
+
+console.log(output);
+
+
+
+
+
+let marks = 45 ;
+if(marks > 90){
+    console.log(`O`);
+}
+else if (marks > 80){
+    console.log(`A`);
+}
+else if (marks > 70){
+    console.log(`B`);
+}
+else if (marks > 50){
+    console.log(`C`);
+}
+else{
+    console.log(`D`);
+}
