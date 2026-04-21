@@ -1,0 +1,16 @@
+Today learn about function
+string method
+math method
+
+//Day 3    
+console.log(Math.floor(Math.random()*999999));
+
+ 
+console.log(Math.floor(Math.random()*900000+100000));
+
+
+
+function abc(a,b){
+    return a+b
+}
+console.log(abc(20,70));
